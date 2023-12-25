@@ -17,7 +17,7 @@ from PIL import Image
 
 # Set the model engine and your OpenAI API key
 model_engine = "text-davinci-003"
-Import OS
+import os
 os.environ["openai.api_key"] = st.secrets["openai.api_key"]
 #openai.api_key = "put your API key"
 
