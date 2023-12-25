@@ -373,7 +373,7 @@ def main():
         st.subheader("About")
         st.caption("NLP Sales Qualifier can be used for Pre-Qualifying Prospects for Lead Sourcing. When you have identified potential leads, you can access their company website (URL) and summarize their website using this tool or web scrape their website using this program. The program can instantaneously give results when you copy-paste the details into the content analyzer section in Home screen - so it can start an analysis if this client Pre-Qualifies for sales outreach or sequencing. This program uses Naive Bayes to predict and classify the lead. This program also stores the data which was produced in the form of output and utilizes it as training data for new queries. For further information on this program, contact: harshvshah.22@gmail.com")
         
-        display = image = Image.open("img/Artwork.png")
+        display = image = Image.open("img/lead-qualify.jpeg")
         display = np.array(display)
         st.image(display, width=600)
     
