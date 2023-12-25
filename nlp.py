@@ -42,7 +42,7 @@ st.image(display, width=250)
 st.title(":teal[NLP Sales Qualifier v3]")
 
 #Create Subheader
-st.subheader('''App created by Raj Shah''')
+st.subheader('''App created by Harsh Shah''')
 st.caption('''Predicts with English, Spanish, Polish and German languages''')
 st.caption('''Utilizes ChatGPT API''')
 
