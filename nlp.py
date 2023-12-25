@@ -16,7 +16,7 @@ from PIL import Image
 #from transformers import pipeline
 
 # Set the model engine and your OpenAI API key
-model_engine = "text-davinci-003"
+model_engine = "text-davinci-002"
 openai.api_key = "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"
 
 def ChatGPT(user_query):
