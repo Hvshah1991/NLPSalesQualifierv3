@@ -18,7 +18,7 @@ from PIL import Image
 # Set the model engine and your OpenAI API key
 model_engine = "text-davinci-003"
 import os
-openai.api_key = os.environ['OPENAI_API_KEY'] == st.secrets['OPENAI_API_KEY']
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 def ChatGPT(user_query):
     '''
