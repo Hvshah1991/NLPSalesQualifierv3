@@ -36,7 +36,7 @@ def ChatGPT(user_query):
     return response
 
 #Welcome Banner
-display = image = Image.open("img/valutico_teal.png")
+display = image = Image.open("img/drishlabs.png")
 display = np.array(display)
 st.image(display, width=250)
 st.title(":teal[NLP Sales Qualifier v3]")
@@ -131,7 +131,7 @@ def main():
                     
             with col2:
                 st.write("Web-Based Machine Learning Qualifier")
-                st.write("Predict Text as per defined Valutico Personas to Qualify Leads")
+                st.write("Predict Text as per defined Finance Industry Personas to Qualify Leads")
                 
 
             
@@ -371,7 +371,7 @@ def main():
         
     else:
         st.subheader("About")
-        st.caption("NLP Sales Qualifier can be used for Pre-Qualifying Prospects for Lead Sourcing. When you have identified potential leads, you can access their company website (URL) and summarize their website using this tool or web scrape their website using this program. The program can instantaneously give results when you copy-paste the details into the content analyzer section in Home screen - so it can start an analysis if this client Pre-Qualifies for sales outreach or sequencing. This program uses Naive Bayes to predict and classify the lead. This program also stores the data which was produced in the form of output and utilizes it as training data for new queries. For further information on this program, contact: r.shah@valutico.com")
+        st.caption("NLP Sales Qualifier can be used for Pre-Qualifying Prospects for Lead Sourcing. When you have identified potential leads, you can access their company website (URL) and summarize their website using this tool or web scrape their website using this program. The program can instantaneously give results when you copy-paste the details into the content analyzer section in Home screen - so it can start an analysis if this client Pre-Qualifies for sales outreach or sequencing. This program uses Naive Bayes to predict and classify the lead. This program also stores the data which was produced in the form of output and utilizes it as training data for new queries. For further information on this program, contact: harshvshah.22@gmail.com")
         
         display = image = Image.open("img/Artwork.png")
         display = np.array(display)
