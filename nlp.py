@@ -62,7 +62,7 @@ for x,y in data:
     
 #Storage in a database
 import sqlite3
-conn = sqlite3.connect('data.db')
+conn = sqlite3.connect('data1.db')
 c = conn.cursor()
 
 #Create Fxn from SQL
