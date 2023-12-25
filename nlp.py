@@ -17,7 +17,7 @@ from PIL import Image
 
 # Set the model engine and your OpenAI API key
 model_engine = "text-davinci-003"
-openai.api_key = "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"
+openai.api_key = "put your API key"
 
 def ChatGPT(user_query):
     '''
