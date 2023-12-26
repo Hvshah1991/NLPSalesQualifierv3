@@ -11,9 +11,9 @@ This program uses Naive Bayes to predict and classify the lead. This program als
 
 ## App Screenshots
 <p float="left">
-<img src="./img/image1.png" width="250">
-<img src="./img/image2.png" width="250">
-<img src="./img/image3.png" width="250">
+<img src="./img/image1.png" width="300">
+<img src="./img/image2.png" width="300">
+<img src="./img/image3.png" width="300">
 </p>
 
 ## Demo
