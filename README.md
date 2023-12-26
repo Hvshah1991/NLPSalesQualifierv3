@@ -5,9 +5,11 @@
 
 ### Description
 
-NLP Sales Qualifier can be used for Pre-Qualifying Prospects for Lead Sourcing. When you have identified potential leads, you can access their company website (URL) and summarize their website using this tool or web scrape their website using this program. 
-The program can instantaneously give results when you copy-paste the details into the content analyzer section in Home screen - so it can start an analysis if this client Pre-Qualifies for sales outreach or sequencing. 
-This program uses Naive Bayes to predict and classify the lead. This program also stores the data which was produced in the form of output and utilizes it as training data for new queries.
+Pre-Qualifying leads with automation can be an asset for business development field. In last couple of months, I was able to dive into this topic and created a Python based - NLP Sales Qualifier for Finance Professionals 💵.
+
+Once leads are sourced you just need to pass their company website address through it and the pre-qualifier (interfaced on Streamlit) will scrape the information and utilised Naive Bayes 📈 model (embodied with Bag Of Words) to predict the Persona of the lead. The current model I made encompasses all the Personas of Finance Industry 💰. The output data is stored in SQL database 💾 after every run and it can be downloaded as a csv file directly from the front-end.
+
+Made the NLP Sales Qualifier 🤖 utilising seaborn, beautifulsoup4, openai, pandas, numpy...many more. A complete machine learning based application that can automate lead pre-qualification process for you. It supports 4 languages currently: English, Spanish, Polish and German.
 
 ## App Screenshots
 <p float="left">
