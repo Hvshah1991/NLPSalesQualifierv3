@@ -17,7 +17,7 @@ This program uses Naive Bayes to predict and classify the lead. This program als
 </p>
 
 ## Demo
-Watch this video to get complete demo of the functionality (https://vimeo.com/897224471)
+Watch this video to get complete demo of the functionality (https://vimeo.com/897893213)
 
 
 # Getting Started
